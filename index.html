@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vella Manikanta | Assistant Professor & Academic Portfolio</title>
+    <meta name="description" content="Academic Portfolio & Resume of Vella Manikanta, Assistant Professor in Department of Data Engineering at MVGR College of Engineering. Researcher in Machine Learning, Web Technologies & Data Systems.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome 6 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-brand">
+                <span class="brand-prefix">&gt;</span> VM<span class="cursor-blink">.DEV</span>
+            </a>
+            
+            <nav class="nav-links" id="nav-links">
+                <a href="#about" class="nav-item"><span class="nav-slash">/</span>ABOUT</a>
+                <a href="#experience" class="nav-item"><span class="nav-slash">/</span>EXPERIENCE</a>
+                <a href="#skills" class="nav-item"><span class="nav-slash">/</span>SKILLS</a>
+                <a href="#research" class="nav-item"><span class="nav-slash">/</span>RESEARCH</a>
+                <a href="#education" class="nav-item"><span class="nav-slash">/</span>EDUCATION</a>
+                <a href="#certifications" class="nav-item"><span class="nav-slash">/</span>CERTS</a>
+                <a href="#committees" class="nav-item"><span class="nav-slash">/</span>ROLES</a>
+                <a href="#contact" class="nav-item"><span class="nav-slash">/</span>CONTACT</a>
+                <!--<a href="admin/login.php" target="_blank" class="nav-item" style="color:var(--accent-cyan); font-weight:700;"><span class="nav-slash">/</span>ADMIN</a>-->
+            </nav>
+
+            <div class="nav-actions">
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="hero-bg-grid"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="status-badge">
+                        <span class="pulse-dot"></span>
+                        <span class="badge-text">FACULTY & RESEARCHER · MVGR COLLEGE OF ENGINEERING</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        VELLA <span class="highlight-text">MANIKANTA</span>
+                    </h1>
+
+                    <p class="hero-subtitle">
+                        Assistant Professor (Department of Data Engineering)
+                    </p>
+
+                    <p class="hero-description">
+                        Academician with 8+ years of teaching excellence in Computer Science, Data Engineering, and Web Technologies. Experienced mentor in Smart India Hackathon (SIH), research contributor with 6+ international publications in Springer & AIP, and dedicated computer science educator.
+                    </p>
+
+                    <div class="hero-tags">
+                        <span class="tech-tag"><i class="fa-brands fa-html5"></i> HTML / CSS / JS</span>
+                        <span class="tech-tag"><i class="fa-brands fa-react"></i> React JS</span>
+                        <span class="tech-tag"><i class="fa-brands fa-node-js"></i> Node JS</span>
+                        <span class="tech-tag"><i class="fa-solid fa-database"></i> Data Engineering</span>
+                        <span class="tech-tag"><i class="fa-solid fa-code"></i> Java & C++</span>
+                    </div>
+
+                    <div class="hero-actions">
+                        <a href="#research" class="btn btn-primary">
+                            <i class="fa-solid fa-microscope"></i> EXPLORE RESEARCH
+                        </a>
+                        <a href="#experience" class="btn btn-secondary">
+                            <i class="fa-solid fa-briefcase"></i> VIEW EXPERIENCE
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fa-solid fa-paper-plane"></i> GET IN TOUCH
+                        </a>
+                    </div>
+
+                    <div class="contact-pills">
+                        <a href="mailto:manikantavella48@gmail.com" class="pill-item">
+                            <i class="fa-solid fa-envelope"></i> manikantavella48@gmail.com
+                        </a>
+                        <a href="https://wa.me/918978970366" target="_blank" rel="noopener noreferrer" class="pill-item" title="Chat on WhatsApp">
+                            <i class="fa-brands fa-whatsapp" style="color:#25D366; font-size:1.05rem;"></i> +91-8978970366
+                        </a>
+                        <span class="pill-item">
+                            <i class="fa-solid fa-location-dot"></i> Vizianagaram, AP, India
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Terminal Side Widget -->
+                <div class="hero-terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="terminal-title">manikanta@mvgr: ~ (bash)</div>
+                        <button class="terminal-copy" id="terminal-copy-btn" title="Copy profile output">
+                            <i class="fa-regular fa-copy"></i>
+                        </button>
+                    </div>
+                    <div class="terminal-body" id="terminal-body">
+                        <div class="terminal-line"><span class="prompt">$</span> <span class="cmd">whoami</span></div>
+                        <div class="terminal-output">Vella Manikanta | Assistant Professor | Data Engineer</div>
+                        
+                        <div class="terminal-line"><span class="prompt">$</span> <span class="cmd">cat status.json</span></div>
+                        <div class="terminal-output json-output">
+{
+  <span class="json-key">"role"</span>: <span class="json-str">"Assistant Professor"</span>,
+  <span class="json-key">"dept"</span>: <span class="json-str">"Data Engineering"</span>,
+  <span class="json-key">"institution"</span>: <span class="json-str">"MVGR College of Engineering(A)"</span>,
+  <span class="json-key">"experience"</span>: <span class="json-str">"8+ Years (2018 - Present)"</span>,
+  <span class="json-key">"location"</span>: <span class="json-str">"Vizianagaram, India"</span>,
+  <span class="json-key">"publications"</span>: <span class="json-num">6</span>,
+  <span class="json-key">"sih_mentor"</span>: <span class="json-bool">true</span>
+}</div>
+
+                        <div class="terminal-line"><span class="prompt">$</span> <span class="cmd">cat core_skills.txt</span></div>
+                        <div class="terminal-output">HTML, CSS, JavaScript, React JS, Node JS, Data Structures, OOP, C, Java, Operating Systems</div>
+
+                        <div class="terminal-line"><span class="prompt">$</span> <span class="cmd">echo $OBJECTIVE</span></div>
+                        <div class="terminal-output">"Seeking a challenging position enabling me to utilize my competence & innovative skills with emerging technologies."</div>
+
+                        <div class="terminal-input-line">
+                            <span class="prompt">$</span>
+                            <input type="text" id="terminal-input" placeholder="Type 'help', 'publications', 'exp', 'skills', 'clear'" autocomplete="off">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Who Am I<span class="accent-dot">?</span></h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card main-bio">
+                        <div class="bio-header-wrap">
+                            <div class="profile-avatar-container">
+                                <img src="profile.jpg" alt="Vella Manikanta" class="profile-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="profile-avatar-fallback">
+                                    <i class="fa-solid fa-user-tie"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <h3>Academician & Technology Educator</h3>
+                                <p class="bio-subtitle-tag"><i class="fa-solid fa-graduation-cap"></i> MVGR College of Engineering(A)</p>
+                            </div>
+                        </div>
+                        <p>
+                            I am a dedicated Assistant Professor in the Department of Data Engineering at MVGR College of Engineering (Autonomous), Vizianagaram. With over <strong>8+ years of continuous teaching experience</strong> across computer science disciplines, my goal is to nurture innovation, problem-solving, and critical thinking capabilities among engineering students.
+                        </p>
+                        <p>
+                            Throughout my career, I have actively mentored student teams competing in prestigious hackathons such as the <strong>Smart India Hackathon (SIH)</strong>, guided undergraduate and postgraduate research, and authored peer-reviewed research papers in reputed platforms including Springer Nature, AIP Conference Proceedings, IJETT, and IJITEE.
+                        </p>
+
+                        <div class="bio-highlights">
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Guided SIH Hackathon Projects & National Tech Competitions</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>6 Peer-Reviewed International Research Publications</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Institutional Leadership in Alumni, Media & Grievance Committees</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+                            <div class="stat-number" data-target="8">8+</div>
+                            <div class="stat-label">Years Teaching Experience</div>
+                        </div>
+
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fa-solid fa-book-bookmark"></i></div>
+                            <div class="stat-number" data-target="6">6</div>
+                            <div class="stat-label">Research Publications</div>
+                        </div>
+
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fa-solid fa-trophy"></i></div>
+                            <div class="stat-number" data-target="2024">SIH '24</div>
+                            <div class="stat-label">Smart India Hackathon Mentor</div>
+                        </div>
+
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fa-solid fa-layer-group"></i></div>
+                            <div class="stat-number" data-target="5">5+</div>
+                            <div class="stat-label">Core Subjects Taught</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Academic Identity Widget -->
+                <div class="academic-identity-card">
+                    <div class="identity-header">
+                        <i class="fa-solid fa-id-card-clip"></i>
+                        <h3>Academic Identity</h3>
+                    </div>
+                    <div class="identity-grid">
+                        <div class="identity-item">
+                            <div class="identity-icon"><i class="fa-solid fa-id-badge" style="color: #38bdf8;"></i></div>
+                            <div class="identity-info">
+                                <span class="identity-label">Employee Id</span>
+                                <span class="identity-val">2307030947</span>
+                            </div>
+                        </div>
+                        <div class="identity-item">
+                            <div class="identity-icon"><i class="fa-brands fa-orcid" style="color: #a6ce39;"></i></div>
+                            <div class="identity-info">
+                                <span class="identity-label">Orcid Id</span>
+                                <a href="https://orcid.org/0009-0002-0744-6315" target="_blank" rel="noopener noreferrer" class="identity-val link">0009-0002-0744-6315 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:0.7rem;"></i></a>
+                            </div>
+                        </div>
+                        <div class="identity-item">
+                            <div class="identity-icon"><i class="fa-solid fa-microscope" style="color: #0077b5;"></i></div>
+                            <div class="identity-info">
+                                <span class="identity-label">Scopus Id</span>
+                                <a href="https://www.scopus.com/authid/detail.uri?authorId=57217184378" target="_blank" rel="noopener noreferrer" class="identity-val link">57217184378 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:0.7rem;"></i></a>
+                            </div>
+                        </div>
+                        <div class="identity-item">
+                            <div class="identity-icon"><span class="researcher-r">R</span></div>
+                            <div class="identity-info">
+                                <span class="identity-label">Researcher Id</span>
+                                <a href="https://www.webofscience.com/wos/author/record/KII-0590-2024" target="_blank" rel="noopener noreferrer" class="identity-val link">KII-0590-2024 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:0.7rem;"></i></a>
+                            </div>
+                        </div>
+                        <div class="identity-item">
+                            <div class="identity-icon"><i class="fa-solid fa-graduation-cap" style="color: #4285f4;"></i></div>
+                            <div class="identity-info">
+                                <span class="identity-label">Google Scholar Id</span>
+                                <a href="https://scholar.google.com/citations?user=JW8H408AAAAJ" target="_blank" rel="noopener noreferrer" class="identity-val link">JW8H408AAAAJ <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:0.7rem;"></i></a>
+                            </div>
+                        </div>
+                        <div class="identity-item">
+                            <div class="identity-icon"><i class="fa-solid fa-building-columns" style="color: #ec4899;"></i></div>
+                            <div class="identity-info">
+                                <span class="identity-label">Vidwan Id</span>
+                                <a href="https://vidwan.inflibnet.ac.in/profile/521179" target="_blank" rel="noopener noreferrer" class="identity-val link">521179 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:0.7rem;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="section section-alt" id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Professional Logs<span class="accent-dot">.</span></h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="timeline">
+                    <!-- Current Position -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-badge current-badge">CURRENT POSITION</div>
+                            <div class="timeline-header">
+                                <div>
+                                    <h3 class="role-title">Assistant Professor</h3>
+                                    <h4 class="dept-title">Department of Data Engineering</h4>
+                                    <div class="org-name">
+                                        <i class="fa-solid fa-building-columns"></i> MVGR College of Engineering (Autonomous), Vizianagaram, India
+                                    </div>
+                                </div>
+                                <div class="timeline-date">
+                                    <i class="fa-regular fa-calendar"></i> 07/2023 – Present
+                                </div>
+                            </div>
+                            <ul class="timeline-bullets">
+                                <li>Leading academic instructions and lab practical sessions for Data Engineering students.</li>
+                                <li>Guided student teams in the <strong>Smart India Hackathon (SIH)</strong> projects, significantly enhancing their technical problem-solving and critical thinking capabilities.</li>
+                                <li>Actively involved in department initiatives, institutional development, media activities, and alumni coordination.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Previous Position -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <div>
+                                    <h3 class="role-title">Assistant Professor</h3>
+                                    <h4 class="dept-title">Department of Computer Science & Engineering</h4>
+                                    <div class="org-name">
+                                        <i class="fa-solid fa-building-columns"></i> Raghu Institute of Technology, Visakhapatnam, India
+                                    </div>
+                                </div>
+                                <div class="timeline-date">
+                                    <i class="fa-regular fa-calendar"></i> 07/2018 – 06/2023
+                                </div>
+                            </div>
+                            <ul class="timeline-bullets">
+                                <li>Delivered 5 years of comprehensive classroom lectures and laboratory sessions in core CSE subjects including C, Java, Data Structures, and Operating Systems.</li>
+                                <li>Mentored student career growth, communicated internship and employment opportunities, and supervised final year projects.</li>
+                                <li>Contributed to student welfare through Disciplinary & Grievance Committees and managed department infrastructure maintenance (DIMC).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Stack & Skills Section -->
+        <section class="section" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Tech_Stack & Expertise<span class="accent-dot">.</span></h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="skills-wrapper">
+                    <!-- Scripting & Web -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Scripting & Languages</h3>
+                        </div>
+                        <div class="skill-list">
+                            <div class="skill-pill">
+                                <i class="fa-brands fa-html5"></i> HTML5
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-brands fa-css3-alt"></i> CSS3
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-brands fa-js"></i> JavaScript (ES6+)
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-solid fa-c"></i> C Programming
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-brands fa-java"></i> Java & C++
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Frameworks -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-cubes"></i>
+                            <h3>Frameworks & Technologies</h3>
+                        </div>
+                        <div class="skill-list">
+                            <div class="skill-pill">
+                                <i class="fa-brands fa-react"></i> React JS
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-brands fa-node-js"></i> Node JS
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-solid fa-diagram-project"></i> Map-Reduce Framework
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-brands fa-ethereum"></i> Ethereum Network
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Development Tools -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            <h3>Tools & IDEs</h3>
+                        </div>
+                        <div class="skill-list">
+                            <div class="skill-pill">
+                                <i class="fa-solid fa-code"></i> VS Code
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-solid fa-laptop-code"></i> Eclipse IDE
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-brands fa-git-alt"></i> Git Version Control
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Subjects Taught -->
+                    <div class="skill-category-card featured-category">
+                        <div class="category-header">
+                            <i class="fa-solid fa-chalkboard"></i>
+                            <h3>Subjects Taught</h3>
+                        </div>
+                        <div class="subjects-grid">
+                            <div class="subject-card">
+                                <i class="fa-solid fa-terminal"></i>
+                                <span>Programming in C</span>
+                            </div>
+                            <div class="subject-card">
+                                <i class="fa-solid fa-sitemap"></i>
+                                <span>Data Structures</span>
+                            </div>
+                            <div class="subject-card">
+                                <i class="fa-solid fa-cubes-stacked"></i>
+                                <span>OOP through Java & C++</span>
+                            </div>
+                            <div class="subject-card">
+                                <i class="fa-solid fa-gears"></i>
+                                <span>Operating Systems</span>
+                            </div>
+                            <div class="subject-card">
+                                <i class="fa-solid fa-globe"></i>
+                                <span>Web Technologies</span>
+                            </div>
+                            <div class="subject-card">
+                                <i class="fa-solid fa-network-wired"></i>
+                                <span>Computer Networks</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Publications Section -->
+        <section class="section section-alt" id="research">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Research Publications<span class="accent-dot">.</span></h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="research-toolbar">
+                    <div class="search-box">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" id="paper-search" placeholder="Search publications by title, publisher, topic...">
+                    </div>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">All (6)</button>
+                        <button class="filter-btn" data-filter="springer">Springer</button>
+                        <button class="filter-btn" data-filter="aip">AIP</button>
+                        <button class="filter-btn" data-filter="journals">International Journals</button>
+                    </div>
+                </div>
+
+                <div class="publications-grid" id="publications-grid">
+                    <!-- Paper 1 (18 August 2026) -->
+                    <div class="pub-card" data-publisher="springer">
+                        <div class="pub-header">
+                            <span class="pub-badge springer-badge"><i class="fa-solid fa-book"></i> Springer Nature</span>
+                            <span class="pub-type" style="font-weight:700; color:var(--accent-cyan);">18 Aug 2026</span>
+                        </div>
+                        <h3 class="pub-title">Enhanced Document Clustering Using Residue Modulo Partitioner in Map-Reduce Framework</h3>
+                        <p class="pub-authors">Vella Manikanta et al.</p>
+                        <p class="pub-summary" style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent-amber);">
+                            <i class="fa-solid fa-fingerprint"></i> DOI: 10.1007/978-3-032-35516-4_6
+                        </p>
+                        <div class="pub-footer">
+                            <a href="https://doi.org/10.1007/978-3-032-35516-4_6" target="_blank" rel="noopener noreferrer" class="btn-link" style="color: var(--accent-cyan);">
+                                <i class="fa-solid fa-external-link"></i> DOI Link
+                            </a>
+                            <button class="btn-link" onclick="openPaperModal(0)"><i class="fa-solid fa-expand"></i> Details</button>
+                        </div>
+                    </div>
+
+                    <!-- Paper 2 (09 July 2025) -->
+                    <div class="pub-card" data-publisher="aip">
+                        <div class="pub-header">
+                            <span class="pub-badge aip-badge"><i class="fa-solid fa-atom"></i> AIP Conference Proceedings</span>
+                            <span class="pub-type" style="font-weight:700; color:var(--accent-cyan);">09 Jul 2025</span>
+                        </div>
+                        <h3 class="pub-title">Efficient skin disease detection with CNNs</h3>
+                        <p class="pub-authors">Vella Manikanta et al me</p>
+                        <p class="pub-summary" style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent-amber);">
+                            <i class="fa-solid fa-fingerprint"></i> DOI: 10.1063/5.0284693
+                        </p>
+                        <div class="pub-footer">
+                            <a href="https://doi.org/10.1063/5.0284693" target="_blank" rel="noopener noreferrer" class="btn-link" style="color: var(--accent-cyan);">
+                                <i class="fa-solid fa-external-link"></i> DOI Link
+                            </a>
+                            <button class="btn-link" onclick="openPaperModal(1)"><i class="fa-solid fa-expand"></i> Details</button>
+                        </div>
+                    </div>
+
+                    <!-- Paper 3 (14 May 2024) -->
+                    <div class="pub-card" data-publisher="springer">
+                        <div class="pub-header">
+                            <span class="pub-badge springer-badge"><i class="fa-solid fa-book"></i> Springer</span>
+                            <span class="pub-type" style="font-weight:700; color:var(--accent-cyan);">14 May 2024</span>
+                        </div>
+                        <h3 class="pub-title">DR-HIPI: Performance Evaluation of Retinal Images for DR Lesion Segmentation Using the HIPI Architecture</h3>
+                        <p class="pub-authors">Vella Manikanta et al.</p>
+                        <p class="pub-summary" style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent-amber);">
+                            <i class="fa-solid fa-fingerprint"></i> DOI: 10.1007/978-3-031-51163-9_14
+                        </p>
+                        <div class="pub-footer">
+                            <a href="https://doi.org/10.1007/978-3-031-51163-9_14" target="_blank" rel="noopener noreferrer" class="btn-link" style="color: var(--accent-cyan);">
+                                <i class="fa-solid fa-external-link"></i> DOI Link
+                            </a>
+                            <button class="btn-link" onclick="openPaperModal(2)"><i class="fa-solid fa-expand"></i> Details</button>
+                        </div>
+                    </div>
+
+                    <!-- Paper 4 (Year 2020) -->
+                    <div class="pub-card" data-publisher="journals">
+                        <div class="pub-header">
+                            <span class="pub-badge journal-badge"><i class="fa-solid fa-wifi"></i> IJETT</span>
+                            <span class="pub-type" style="font-weight:700; color:var(--accent-cyan);">Year 2020</span>
+                        </div>
+                        <h3 class="pub-title">A Hybrid Cluster based Routing model for wireless sensor Networks</h3>
+                        <p class="pub-authors">Vella Manikanta et al.</p>
+                        <p class="pub-summary" style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent-amber);">
+                            <i class="fa-solid fa-fingerprint"></i> DOI: 10.14445/22315381/IJETT-V68I1P214
+                        </p>
+                        <div class="pub-footer">
+                            <a href="https://doi.org/10.14445/22315381/IJETT-V68I1P214" target="_blank" rel="noopener noreferrer" class="btn-link" style="color: var(--accent-cyan);">
+                                <i class="fa-solid fa-external-link"></i> DOI Link
+                            </a>
+                            <button class="btn-link" onclick="openPaperModal(3)"><i class="fa-solid fa-expand"></i> Details</button>
+                        </div>
+                    </div>
+
+                    <!-- Paper 5 (10 December 2019) -->
+                    <div class="pub-card" data-publisher="journals">
+                        <div class="pub-header">
+                            <span class="pub-badge journal-badge"><i class="fa-brands fa-ethereum"></i> IJITEE</span>
+                            <span class="pub-type" style="font-weight:700; color:var(--accent-cyan);">10 Dec 2019</span>
+                        </div>
+                        <h3 class="pub-title">An Efficient Technique for Managing User Information using Ethereum Network</h3>
+                        <p class="pub-authors">Vella Manikanta et al.</p>
+                        <p class="pub-summary" style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent-amber);">
+                            <i class="fa-solid fa-fingerprint"></i> DOI: 10.35940/ijitee.b7585.129219
+                        </p>
+                        <div class="pub-footer">
+                            <a href="https://doi.org/10.35940/ijitee.b7585.129219" target="_blank" rel="noopener noreferrer" class="btn-link" style="color: var(--accent-cyan);">
+                                <i class="fa-solid fa-external-link"></i> DOI Link
+                            </a>
+                            <button class="btn-link" onclick="openPaperModal(4)"><i class="fa-solid fa-expand"></i> Details</button>
+                        </div>
+                    </div>
+
+                    <!-- Paper 6 (Year 2017) -->
+                    <div class="pub-card" data-publisher="journals">
+                        <div class="pub-header">
+                            <span class="pub-badge journal-badge"><i class="fa-solid fa-lock"></i> IJETT</span>
+                            <span class="pub-type" style="font-weight:700; color:var(--accent-cyan);">Year 2017</span>
+                        </div>
+                        <h3 class="pub-title">A Secure and Hybrid Model for Auditing and Deduplication</h3>
+                        <p class="pub-authors">Vella Manikanta et al.</p>
+                        <p class="pub-summary" style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent-amber);">
+                            <i class="fa-solid fa-fingerprint"></i> DOI: 10.14445/22315381/IJETT-V51P210
+                        </p>
+                        <div class="pub-footer">
+                            <a href="https://doi.org/10.14445/22315381/IJETT-V51P210" target="_blank" rel="noopener noreferrer" class="btn-link" style="color: var(--accent-cyan);">
+                                <i class="fa-solid fa-external-link"></i> DOI Link
+                            </a>
+                            <button class="btn-link" onclick="openPaperModal(5)"><i class="fa-solid fa-expand"></i> Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Academic Profile / Education Section -->
+        <section class="section" id="education">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Academic Profile<span class="accent-dot">.</span></h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="education-grid">
+                    <!-- M.Tech -->
+                    <div class="edu-card">
+                        <div class="edu-year-badge">2017</div>
+                        <div class="edu-icon"><i class="fa-solid fa-user-graduate"></i></div>
+                        <h3 class="edu-degree">M.Tech in Computer Science & Engineering (CSE)</h3>
+                        <h4 class="edu-inst">Avanthi Institute of Engineering & Technology</h4>
+                        <p class="edu-affiliation"><i class="fa-solid fa-building-columns"></i> Vizianagaram · Affiliated to JNTUK</p>
+                    </div>
+
+                    <!-- B.Tech -->
+                    <div class="edu-card">
+                        <div class="edu-year-badge">2014</div>
+                        <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <h3 class="edu-degree">B.Tech in Information Technology (IT)</h3>
+                        <h4 class="edu-inst">LENDI Institute of Engineering & Technology</h4>
+                        <p class="edu-affiliation"><i class="fa-solid fa-building-columns"></i> Vizianagaram · Affiliated to JNTUK</p>
+                    </div>
+
+                    <!-- Intermediate -->
+                    <div class="edu-card">
+                        <div class="edu-year-badge">2009</div>
+                        <div class="edu-icon"><i class="fa-solid fa-school"></i></div>
+                        <h3 class="edu-degree">Intermediate (M.P.C)</h3>
+                        <h4 class="edu-inst">Vivekavardini Junior College</h4>
+                        <p class="edu-affiliation"><i class="fa-solid fa-landmark"></i> Board of Intermediate Education</p>
+                    </div>
+
+                    <!-- SSC -->
+                    <div class="edu-card">
+                        <div class="edu-year-badge">2007</div>
+                        <div class="edu-icon"><i class="fa-solid fa-book-open"></i></div>
+                        <h3 class="edu-degree">S.S.C (10th Standard)</h3>
+                        <h4 class="edu-inst">Sacred Heart School</h4>
+                        <p class="edu-affiliation"><i class="fa-solid fa-landmark"></i> Board of Secondary Education</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & FDPs Section -->
+        <section class="section section-alt" id="certifications">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Certifications & Workshops<span class="accent-dot">.</span></h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="research-toolbar" style="margin-bottom: 2rem;">
+                    <div class="search-box">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" id="cert-search" placeholder="Search 20+ certifications, FDPs, workshops, topics...">
+                    </div>
+                    <div class="filter-buttons">
+                        <button class="cert-filter-btn active" data-cert-filter="all">All (20)</button>
+                        <button class="cert-filter-btn" data-cert-filter="2025-2026">2025–2026</button>
+                        <button class="cert-filter-btn" data-cert-filter="2024-2025">2024–2025</button>
+                        <button class="cert-filter-btn" data-cert-filter="2023-2024">2023–2024</button>
+                        <button class="cert-filter-btn" data-cert-filter="2020-2021">2020–2021</button>
+                        <button class="cert-filter-btn" data-cert-filter="2019-2020">2019–2020</button>
+                    </div>
+                </div>
+
+                <div class="certifications-grid" id="certifications-grid">
+
+                    <!-- ACADEMIC YEAR 2025-2026 -->
+                    <div class="cert-card" data-year="2025-2026" onclick="openCertModal('sdg_ai_2026')">
+                        <div class="cert-icon"><i class="fa-solid fa-robot"></i></div>
+                        <div class="cert-content">
+                            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.4rem; margin-bottom:0.4rem;">
+                                <span class="cert-badge highlight-cert">2025–2026 FDP</span>
+                                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-cyan); font-weight:700;">22 Jun 2026</span>
+                            </div>
+                            <h3>AI for Sustainable Development Goals (SDGs)</h3>
+                            <p class="cert-issuer"><i class="fa-solid fa-building-columns"></i> Pragati Engineering College · FDP (1 Day, Offline)</p>
+                            <p class="cert-desc"><i class="fa-solid fa-layer-group"></i> Level: Institution FDP</p>
+                            <button class="btn-link" style="margin-top:0.6rem; color:var(--accent-cyan); font-family:var(--font-mono); font-size:0.78rem;" onclick="event.stopPropagation(); openCertModal('sdg_ai_2026')">
+                                <i class="fa-solid fa-file-pdf"></i> View Certificate File <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="cert-card" data-year="2025-2026" onclick="openCertModal('power_bi_2026')">
+                        <div class="cert-icon"><i class="fa-solid fa-chart-pie"></i></div>
+                        <div class="cert-content">
+                            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.4rem; margin-bottom:0.4rem;">
+                                <span class="cert-badge highlight-cert">2025–2026 WORKSHOP</span>
+                                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-cyan); font-weight:700;">18 Jun 2026</span>
+                            </div>
+                            <h3>Data Visualization & Business Intelligence using Power BI</h3>
+                            <p class="cert-issuer"><i class="fa-solid fa-building-columns"></i> MVGR College of Engineering · Workshop (1 Day, Offline)</p>
+                            <p class="cert-desc"><i class="fa-solid fa-layer-group"></i> Level: Institution Workshop</p>
+                            <button class="btn-link" style="margin-top:0.6rem; color:var(--accent-cyan); font-family:var(--font-mono); font-size:0.78rem;" onclick="event.stopPropagation(); openCertModal('power_bi_2026')">
+                                <i class="fa-solid fa-file-image"></i> View Certificate File <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="cert-card" data-year="2025-2026" onclick="openCertModal('ai_manufacturing_2025')">
+                        <div class="cert-icon"><i class="fa-solid fa-industry"></i></div>
+                        <div class="cert-content">
+                            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.4rem; margin-bottom:0.4rem;">
+                                <span class="cert-badge highlight-cert">2025–2026 FDP</span>
+                                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-cyan); font-weight:700;">27–31 Oct 2025</span>
+                            </div>
+                            <h3>The Role of Artificial Intelligence in Manufacturing Industries</h3>
+                            <p class="cert-issuer"><i class="fa-solid fa-building-columns"></i> MVGR College of Engineering · FDP (5 Days, Online)</p>
+                            <p class="cert-desc"><i class="fa-solid fa-globe"></i> Level: National FDP</p>
+                            <button class="btn-link" style="margin-top:0.6rem; color:var(--accent-cyan); font-family:var(--font-mono); font-size:0.78rem;" onclick="event.stopPropagation(); openCertModal('ai_manufacturing_2025')">
+                                <i class="fa-solid fa-file-pdf"></i> View Certificate File <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="cert-card" data-year="2025-2026" onclick="openCertModal('nvidia_dl_2025')">
+                        <div class="cert-icon"><i class="fa-solid fa-microchip"></i></div>
+                        <div class="cert-content">
+                            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.4rem; margin-bottom:0.4rem;">
+                                <span class="cert-badge nvidia-cert">NVIDIA INTERNATIONAL</span>
+                                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-cyan); font-weight:700;">24 Sep 2025</span>
+                            </div>
+                            <h3>Fundamentals of Deep Learning</h3>
+                            <p class="cert-issuer"><i class="fa-solid fa-award"></i> NVIDIA Deep Learning Institute · Certification (Online)</p>
+                            <p class="cert-desc"><i class="fa-solid fa-globe"></i> Level: International Certification</p>
+                            <button class="btn-link" style="margin-top:0.6rem; color:var(--accent-cyan); font-family:var(--font-mono); font-size:0.78rem;" onclick="event.stopPropagation(); openCertModal('nvidia_dl_2025')">
+                                <i class="fa-solid fa-file-pdf"></i> View Certificate File <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="cert-card" data-year="2025-2026" onclick="openCertModal('quantum_ai_2025')">
+                        <div class="cert-icon"><i class="fa-solid fa-atom"></i></div>
+                        <div class="cert-content">
+                            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.4rem; margin-bottom:0.4rem;">
+                                <span class="cert-badge atal-cert">AICTE ATAL FDP</span>
+                                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-cyan); font-weight:700;">25–30 Aug 2025</span>
+                            </div>
+                            <h3>Quantum Computing with Artificial Intelligence: Convergence and Applications</h3>
+                            <p class="cert-issuer"><i class="fa-solid fa-university"></i> ATAL Academy (Gayatri Vidya Parishad) · FDP (6 Days, Offline)</p>
+                            <p class="cert-desc"><i class="fa-solid fa-globe"></i> Level: National FDP</p>
+                            <button class="btn-link" style="margin-top:0.6rem; color:var(--accent-cyan); font-family:var(--font-mono); font-size:0.78rem;" onclick="event.stopPropagation(); openCertModal('quantum_ai_2025')">
+                                <i class="fa-solid fa-file-pdf"></i> View Certificate File <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- ACADEMIC YEAR 2024-2025 -->
+                    <div class="cert-card" data-year="2024-2025" onclick="openCertModal('nextgen_ai_2025')">
+                        <div class="cert-icon"><i class="fa-solid fa-brain"></i></div>
+                        <div class="cert-content">
+                            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.4rem; margin-bottom:0.4rem;">
+                                <span class="cert-badge atal-cert">AICTE ATAL FDP</span>
+                                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-cyan); font-weight:700;">13–18 Jan 2025</span>
+                            </div>
+                            <h3>Next-Gen AI: Innovations in Machine Learning, Deep Learning, and Generative Models</h3>
+                            <p class="cert-issuer"><i class="fa-solid fa-university"></i> ATAL Academy (St. Joseph's College of Engineering) · FDP (6 Days, Offline)</p>
+                            <p class="cert-desc"><i class="fa-solid fa-globe"></i> Level: National FDP</p>
+                            <button class="btn-link" style="margin-top:0.6rem; color:var(--accent-cyan); font-family:var(--font-mono); font-size:0.78rem;" onclick="event.stopPropagation(); openCertModal('nextgen_ai_2025')">
+                                <i class="fa-solid fa-file-pdf"></i> View Certificate File <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="cert-card" data-year="2024-2025" onclick="openCertModal('nptel_oop_2025')">
+                        <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                        <div class="cert-content">
+                            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.4rem; margin-bottom:0.4rem;">
+                                <span class="cert-badge nptel-cert">NPTEL ELITE CERTIFICATION</span>
+                                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-cyan); font-weight:700;">Jan–Apr 2025</span>
+                            </div>
+                            <h3>Fundamentals of Object Oriented Programming</h3>
+                            <p class="cert-issuer"><i class="fa-solid fa-building-columns"></i> NPTEL (IIT Roorkee) · FDP (84 Days, Online)</p>
+                            <p class="cert-desc"><i class="fa-solid fa-globe"></i> Level: National Certification</p>
+                            <button class="btn-link" style="margin-top:0.6rem; color:var(--accent-cyan); font-family:var(--font-mono); font-size:0.78rem;" onclick="event.stopPropagation(); openCertModal('nptel_oop_2025')">
+                                <i class="fa-solid fa-file-pdf"></i> View Certificate File <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="cert-card" data-year="2024-2025" onclick="openCertModal('sih_2024')">
+                        <div class="cert-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                        <div class="cert-content">
+                            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.4rem; margin-bottom:0.4rem;">
+                                <span class="cert-badge highlight-cert">NATIONAL MENTORSHIP</span>
+                                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-cyan); font-weight:700;">11–12 Dec 2024</span>
+                            </div>
+                            <h3>Smart India Hackathon 2024</h3>
+                            <p class="cert-issuer"><i class="fa-solid fa-building-flag"></i> Ministry of Education / AICTE · Mentor (2 Days, Offline)</p>
+                            <p class="cert-desc"><i class="fa-solid fa-globe"></i> Level: National Mentorship</p>
+                            <button class="btn-link" style="margin-top:0.6rem; color:var(--accent-cyan); font-family:var(--font-mono); font-size:0.78rem;" onclick="event.stopPropagation(); openCertModal('sih_2024')">
+                                <i class="fa-solid fa-file-pdf"></i> View Certificate File <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="cert-card" data-year="2024-2025" onclick="openCertModal('cyber_sec_2024')">
+                        <div class="cert-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                        <div class="cert-content">
+                            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.4rem; margin-bottom:0.4rem;">
+                                <span class="cert-badge atal-cert">AICTE ATAL FDP</span>
+                                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-cyan); font-weight:700;">09–14 Dec 2024</span>
+                            </div>
+                            <h3>Emerging Techniques in Cyber Security for Building Resilient Network Infrastructure</h3>
+                            <p class="cert-issuer"><i class="fa-solid fa-university"></i> ATAL Academy (IIIT Sri City) · FDP (6 Days, Offline)</p>
+                            <p class="cert-desc"><i class="fa-solid fa-globe"></i> Level: National FDP</p>
+                            <button class="btn-link" style="margin-top:0.6rem; color:var(--accent-cyan); font-family:var(--font-mono); font-size:0.78rem;" onclick="event.stopPropagation(); openCertModal('cyber_sec_2024')">
+                                <i class="fa-solid fa-file-pdf"></i> View Certificate File <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="cert-card" data-year="2024-2025" onclick="openCertModal('sttp_cps_2024')">
+                        <div class="cert-icon"><i class="fa-solid fa-cubes"></i></div>
+                        <div class="cert-content">
+                            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.4rem; margin-bottom:0.4rem;">
+                                <span class="cert-badge nptel-cert">STTP PROGRAM</span>
+                                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-cyan); font-weight:700;">08–13 Jul 2024</span>
+                            </div>
+                            <h3>Intelligent Cyber Physical Systems: Blockchain Recent Trends & Applications</h3>
+                            <p class="cert-issuer"><i class="fa-solid fa-building-columns"></i> MVGR College of Engineering · STTP (6 Days, Offline)</p>
+                            <p class="cert-desc"><i class="fa-solid fa-globe"></i> Level: National STTP</p>
+                            <button class="btn-link" style="margin-top:0.6rem; color:var(--accent-cyan); font-family:var(--font-mono); font-size:0.78rem;" onclick="event.stopPropagation(); openCertModal('sttp_cps_2024')">
+                                <i class="fa-solid fa-file-image"></i> View Certificate File <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- ACADEMIC YEAR 2023-2024 -->
+                    <div class="cert-card" data-year="2023-2024" onclick="openCertModal('macroeconomics_2024')">
+                        <div class="cert-icon"><i class="fa-solid fa-chart-line"></i></div>
+                        <div class="cert-content">
+                            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.4rem; margin-bottom:0.4rem;">
+                                <span class="cert-badge edx-cert">EDX INTERNATIONAL COURSE</span>
+                                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-cyan); font-weight:700;">22 Apr 2024</span>
+                            </div>
+                            <h3>Macroeconomics: Theory and Policy</h3>
+                            <p class="cert-issuer"><i class="fa-solid fa-university"></i> IIMBx (edX) · Course (1 Day, Online)</p>
+                            <p class="cert-desc"><i class="fa-solid fa-globe"></i> Level: International Course</p>
+                            <button class="btn-link" style="margin-top:0.6rem; color:var(--accent-cyan); font-family:var(--font-mono); font-size:0.78rem;" onclick="event.stopPropagation(); openCertModal('macroeconomics_2024')">
+                                <i class="fa-solid fa-file-pdf"></i> View Certificate File <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- ACADEMIC YEAR 2020-2021 -->
+                    <div class="cert-card" data-year="2020-2021" onclick="openCertModal('nba_fdp_2020')">
+                        <div class="cert-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="cert-content">
+                            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.4rem; margin-bottom:0.4rem;">
+                                <span class="cert-badge nptel-cert">FDP PROGRAM</span>
+                                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-cyan); font-weight:700;">05 Oct 2020</span>
+                            </div>
+                            <h3>Faculty Program on NBA</h3>
+                            <p class="cert-issuer"><i class="fa-solid fa-building-columns"></i> Bharati Vidyapeeth College Of Engineering · FDP (1 Day, Online)</p>
+                            <p class="cert-desc"><i class="fa-solid fa-globe"></i> Level: National FDP</p>
+                            <button class="btn-link" style="margin-top:0.6rem; color:var(--accent-cyan); font-family:var(--font-mono); font-size:0.78rem;" onclick="event.stopPropagation(); openCertModal('nba_fdp_2020')">
+                                <i class="fa-solid fa-file-image"></i> View Certificate File <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="cert-card" data-year="2020-2021" onclick="openCertModal('java_quiz_2020')">
+                        <div class="cert-icon"><i class="fa-solid fa-code"></i></div>
+                        <div class="cert-content">
+                            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.4rem; margin-bottom:0.4rem;">
+                                <span class="cert-badge highlight-cert">QUIZ COMPETITION</span>
+                                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-cyan); font-weight:700;">03 Jun 2020</span>
+                            </div>
+                            <h3>JAVA Programming</h3>
+                            <p class="cert-issuer"><i class="fa-solid fa-building-columns"></i> RGMCET · Quiz (1 Day, Online)</p>
+                            <p class="cert-desc"><i class="fa-solid fa-layer-group"></i> Level: Institution Quiz</p>
+                            <button class="btn-link" style="margin-top:0.6rem; color:var(--accent-cyan); font-family:var(--font-mono); font-size:0.78rem;" onclick="event.stopPropagation(); openCertModal('java_quiz_2020')">
+                                <i class="fa-solid fa-file-pdf"></i> View Certificate File <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- ACADEMIC YEAR 2019-2020 -->
+                    <div class="cert-card" data-year="2019-2020" onclick="openCertModal('naac_quiz_2020')">
+                        <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                        <div class="cert-content">
+                            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.4rem; margin-bottom:0.4rem;">
+                                <span class="cert-badge nptel-cert">NATIONAL QUIZ</span>
+                                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-cyan); font-weight:700;">26 May 2020</span>
+                            </div>
+                            <h3>National Level Quiz on NAAC</h3>
+                            <p class="cert-issuer"><i class="fa-solid fa-building-columns"></i> P.V.P.P. College of Engineering · Quiz (1 Day, Online)</p>
+                            <p class="cert-desc"><i class="fa-solid fa-globe"></i> Level: National Quiz</p>
+                            <button class="btn-link" style="margin-top:0.6rem; color:var(--accent-cyan); font-family:var(--font-mono); font-size:0.78rem;" onclick="event.stopPropagation(); openCertModal('naac_quiz_2020')">
+                                <i class="fa-solid fa-file-image"></i> View Certificate File <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="cert-card" data-year="2019-2020" onclick="openCertModal('future_tech_2020')">
+                        <div class="cert-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <div class="cert-content">
+                            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.4rem; margin-bottom:0.4rem;">
+                                <span class="cert-badge highlight-cert">NATIONAL WEBINAR</span>
+                                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-cyan); font-weight:700;">19 May 2020</span>
+                            </div>
+                            <h3>Future Tech 2020 - Global Mega Trends</h3>
+                            <p class="cert-issuer"><i class="fa-solid fa-video"></i> ICT Academy · Webinar (1 Day, Online)</p>
+                            <p class="cert-desc"><i class="fa-solid fa-globe"></i> Level: National Webinar</p>
+                            <button class="btn-link" style="margin-top:0.6rem; color:var(--accent-cyan); font-family:var(--font-mono); font-size:0.78rem;" onclick="event.stopPropagation(); openCertModal('future_tech_2020')">
+                                <i class="fa-solid fa-file-image"></i> View Certificate File <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="cert-card" data-year="2019-2020" onclick="openCertModal('industry4_2020')">
+                        <div class="cert-icon"><i class="fa-solid fa-gears"></i></div>
+                        <div class="cert-content">
+                            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.4rem; margin-bottom:0.4rem;">
+                                <span class="cert-badge highlight-cert">WEBINAR</span>
+                                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-cyan); font-weight:700;">19 May 2020</span>
+                            </div>
+                            <h3>INDUSTRY 4.0</h3>
+                            <p class="cert-issuer"><i class="fa-solid fa-building-columns"></i> Sri Eshwar College of Engineering · Webinar (1 Day, Online)</p>
+                            <p class="cert-desc"><i class="fa-solid fa-layer-group"></i> Level: Institution Webinar</p>
+                            <button class="btn-link" style="margin-top:0.6rem; color:var(--accent-cyan); font-family:var(--font-mono); font-size:0.78rem;" onclick="event.stopPropagation(); openCertModal('industry4_2020')">
+                                <i class="fa-solid fa-file-pdf"></i> View Certificate File <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="cert-card" data-year="2019-2020" onclick="openCertModal('ensemble_ml_2020')">
+                        <div class="cert-icon"><i class="fa-solid fa-brain"></i></div>
+                        <div class="cert-content">
+                            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.4rem; margin-bottom:0.4rem;">
+                                <span class="cert-badge nptel-cert">WEBINAR</span>
+                                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-cyan); font-weight:700;">12 May 2020</span>
+                            </div>
+                            <h3>Ensemble learning in Machine Learning</h3>
+                            <p class="cert-issuer"><i class="fa-solid fa-building-columns"></i> CMR Engineering College & WILEY · Webinar (1 Day, Online)</p>
+                            <p class="cert-desc"><i class="fa-solid fa-layer-group"></i> Level: Institution Webinar</p>
+                            <button class="btn-link" style="margin-top:0.6rem; color:var(--accent-cyan); font-family:var(--font-mono); font-size:0.78rem;" onclick="event.stopPropagation(); openCertModal('ensemble_ml_2020')">
+                                <i class="fa-solid fa-file-image"></i> View Certificate File <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="cert-card" data-year="2019-2020" onclick="openCertModal('covid_ml_2020')">
+                        <div class="cert-icon"><i class="fa-solid fa-virus"></i></div>
+                        <div class="cert-content">
+                            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.4rem; margin-bottom:0.4rem;">
+                                <span class="cert-badge highlight-cert">NATIONAL WORKSHOP</span>
+                                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-cyan); font-weight:700;">09–10 May 2020</span>
+                            </div>
+                            <h3>ML & AI Using Covid-19 Virus Data Analysis</h3>
+                            <p class="cert-issuer"><i class="fa-solid fa-university"></i> Finland Labs & IIT Roorkee · Workshop (2 Days, Online)</p>
+                            <p class="cert-desc"><i class="fa-solid fa-globe"></i> Level: National Workshop</p>
+                            <button class="btn-link" style="margin-top:0.6rem; color:var(--accent-cyan); font-family:var(--font-mono); font-size:0.78rem;" onclick="event.stopPropagation(); openCertModal('covid_ml_2020')">
+                                <i class="fa-solid fa-file-image"></i> View Certificate File <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="cert-card" data-year="2019-2020" onclick="openCertModal('python_spoken_2020')">
+                        <div class="cert-icon"><i class="fa-brands fa-python"></i></div>
+                        <div class="cert-content">
+                            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.4rem; margin-bottom:0.4rem;">
+                                <span class="cert-badge nptel-cert">IIT BOMBAY TRAINING</span>
+                                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-cyan); font-weight:700;">05 May 2020</span>
+                            </div>
+                            <h3>Python 3.4.3 Training</h3>
+                            <p class="cert-issuer"><i class="fa-solid fa-university"></i> Spoken Tutorial Project, IIT Bombay · Training (1 Day, Online)</p>
+                            <p class="cert-desc"><i class="fa-solid fa-globe"></i> Level: National Training</p>
+                            <button class="btn-link" style="margin-top:0.6rem; color:var(--accent-cyan); font-family:var(--font-mono); font-size:0.78rem;" onclick="event.stopPropagation(); openCertModal('python_spoken_2020')">
+                                <i class="fa-solid fa-file-image"></i> View Certificate File <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="cert-card" data-year="2019-2020" onclick="openCertModal('python_fdp_2020')">
+                        <div class="cert-icon"><i class="fa-brands fa-python"></i></div>
+                        <div class="cert-content">
+                            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.4rem; margin-bottom:0.4rem;">
+                                <span class="cert-badge highlight-cert">NATIONAL FDP</span>
+                                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--accent-cyan); font-weight:700;">28 Apr – 03 May 2020</span>
+                            </div>
+                            <h3>Python Programming</h3>
+                            <p class="cert-issuer"><i class="fa-solid fa-building-columns"></i> JSPM's Rajarshi Shahu College of Engineering · FDP (6 Days, Online)</p>
+                            <p class="cert-desc"><i class="fa-solid fa-globe"></i> Level: National FDP</p>
+                            <button class="btn-link" style="margin-top:0.6rem; color:var(--accent-cyan); font-family:var(--font-mono); font-size:0.78rem;" onclick="event.stopPropagation(); openCertModal('python_fdp_2020')">
+                                <i class="fa-solid fa-file-image"></i> View Certificate File <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Institutional Roles & Memberships -->
+        <section class="section" id="committees">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Roles & Committees<span class="accent-dot">.</span></h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="roles-grid">
+                    <!-- Institutional Committees -->
+                    <div class="roles-column">
+                        <div class="roles-card-header">
+                            <i class="fa-solid fa-users-gear"></i>
+                            <h3>Committee Responsibilities</h3>
+                        </div>
+                        <div class="roles-list">
+                            <div class="role-item">
+                                <span class="role-year">2026</span>
+                                <div class="role-info">
+                                    <h4>Student Extra Curricular Activities Committee</h4>
+                                    <p><span class="role-pos">Member (Media)</span> — Managing department media, event coverage, and outreach.</p>
+                                </div>
+                            </div>
+
+                            <div class="role-item">
+                                <span class="role-year">2026</span>
+                                <div class="role-info">
+                                    <h4>Departmental Alumni Cell (DALC)</h4>
+                                    <p><span class="role-pos">Faculty Incharge</span> — Coordinating alumni relations, mentoring sessions, and networks.</p>
+                                </div>
+                            </div>
+
+                            <div class="role-item">
+                                <span class="role-year">2023</span>
+                                <div class="role-info">
+                                    <h4>Disciplinary & Students Grievance Committee</h4>
+                                    <p><span class="role-pos">Member</span> — Ensuring student welfare, resolving campus grievances & discipline.</p>
+                                </div>
+                            </div>
+
+                            <div class="role-item">
+                                <span class="role-year">2023</span>
+                                <div class="role-info">
+                                    <h4>Departmental Infrastructure and Maintenance Cell (DIMC)</h4>
+                                    <p><span class="role-pos">Faculty Incharge</span> — Overseeing computer labs, hardware maintenance & IT resources.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Professional Memberships -->
+                    <div class="roles-column">
+                        <div class="roles-card-header">
+                            <i class="fa-solid fa-id-card"></i>
+                            <h3>Professional Memberships</h3>
+                        </div>
+                        <div class="memberships-grid">
+                            <div class="membership-card">
+                                <div class="membership-icon"><i class="fa-solid fa-desktop"></i></div>
+                                <div>
+                                    <h4>CSI</h4>
+                                    <p>Computer Society of India</p>
+                                </div>
+                            </div>
+
+                            <div class="membership-card">
+                                <div class="membership-icon"><i class="fa-solid fa-globe"></i></div>
+                                <div>
+                                    <h4>IAENG</h4>
+                                    <p>International Association of Engineers</p>
+                                </div>
+                            </div>
+
+                            <div class="membership-card">
+                                <div class="membership-icon"><i class="fa-solid fa-flask"></i></div>
+                                <div>
+                                    <h4>IRED</h4>
+                                    <p>Institute of Research Engineers and Doctors</p>
+                                </div>
+                            </div>
+
+                            <div class="membership-card">
+                                <div class="membership-icon"><i class="fa-solid fa-bookmark"></i></div>
+                                <div>
+                                    <h4>ABCD Index</h4>
+                                    <p>ABCD Index Chapters Member</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section section-alt" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch<span class="accent-dot">.</span></h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Cards -->
+                    <div class="contact-info">
+                        <h3>Let's Collaborate & Connect</h3>
+                        <p class="contact-sub">
+                            Always open to academic research discussions, SIH mentorship queries, student guidance, and technology projects.
+                        </p>
+
+                        <div class="info-card">
+                            <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="info-details">
+                                <span class="info-label">Direct Email</span>
+                                <a href="mailto:manikantavella48@gmail.com" class="info-value">manikantavella48@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon" style="background:rgba(37,211,102,0.12); border:1px solid rgba(37,211,102,0.3);"><i class="fa-brands fa-whatsapp" style="color:#25D366;"></i></div>
+                            <div class="info-details">
+                                <span class="info-label">Phone / WhatsApp</span>
+                                <a href="https://wa.me/918978970366" target="_blank" rel="noopener noreferrer" class="info-value" title="Chat on WhatsApp">
+                                    +91-8978970366 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:0.7rem; color:var(--accent-cyan);"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="info-details">
+                                <span class="info-label">Residential Address</span>
+                                <p class="info-value">Sali Street, Kothapeta, Vizianagaram, Andhra Pradesh 535002, India</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon"><i class="fa-solid fa-building-columns"></i></div>
+                            <div class="info-details">
+                                <span class="info-label">Official Workplace</span>
+                                <p class="info-value">Department of Data Engineering, MVGR College of Engineering(A), Vizianagaram</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interactive Form -->
+                    <div class="contact-form-container">
+                        <form id="contact-form" class="contact-form" onsubmit="handleFormSubmit(event)">
+                            <h3><i class="fa-solid fa-paper-plane"></i> Send Message</h3>
+                            
+                            <div class="form-group">
+                                <label for="form-name">Full Name *</label>
+                                <input type="text" id="form-name" required placeholder="e.g. Dr. Ramesh Kumar">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-email">Email Address *</label>
+                                <input type="email" id="form-email" required placeholder="name@domain.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-subject">Subject</label>
+                                <input type="text" id="form-subject" placeholder="Research Collaboration / Project Guidance">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-message">Message *</label>
+                                <textarea id="form-message" rows="5" required placeholder="Write your message here..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fa-solid fa-paper-plane"></i> SEND MESSAGE
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal for Publication Details -->
+    <div class="modal" id="paper-modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closePaperModal()">&times;</button>
+            <div class="modal-header" id="modal-header">
+                <!-- Dynamic Content -->
+            </div>
+            <div class="modal-body" id="modal-body">
+                <!-- Dynamic Content -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Certificate Document Viewer -->
+    <div class="modal" id="cert-modal">
+        <div class="modal-content" style="max-width: 900px; width: 94%; max-height: 90vh; overflow-y: auto;">
+            <button class="modal-close" onclick="closeCertModal()">&times;</button>
+            <div class="modal-header" id="cert-modal-header">
+                <!-- Dynamic Content -->
+            </div>
+            <div class="modal-body" id="cert-modal-body">
+                <!-- Dynamic Content -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+               <!-- <a href="#hero" class="footer-brand">&gt; VM.DEV</a>-->
+				<a href="#hero" class="footer-brand">&gt; Vella Manikanta</a>
+                <p>Assistant Professor · MVGR College of Engineering · Vizianagaram, AP, India</p>
+            </div>
+            
+            <div class="footer-center">
+                <div class="visitor-counter">
+                    <i class="fa-solid fa-eye"></i> <span id="visitor-count">1,028</span> views
+                </div>
+                <p class="copyright">&copy; <span id="current-year">2026</span> Vella Manikanta. All rights reserved.</p>
+            </div>
+
+            <div class="footer-right">
+                <button class="back-to-top" onclick="scrollToTop()" title="Back to Top">
+                    <i class="fa-solid fa-arrow-up"></i> TOP
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

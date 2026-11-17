@@ -1,0 +1,552 @@
+{
+    "about": {
+        "name": "Vella Manikanta",
+        "title": "Assistant Professor",
+        "department": "Department of Data Engineering",
+        "college": "MVGR College of Engineering (Autonomous)",
+        "location": "Vizianagaram, AP, India",
+        "tagline": "Specializing in Machine Learning, Deep Learning, Image Processing, Map-Reduce & Blockchain Data Security.",
+        "who_am_i": [
+            "Dedicated educator & researcher with over 9+ years of academic & industrial experience.",
+            "Published high-impact research papers in Springer Nature, AIP Conference Proceedings, and International Journals.",
+            "Active mentor for national initiatives including Smart India Hackathon (SIH 2024)."
+        ],
+        "stats": {
+            "experience_years": 8,
+            "publications_count": 6,
+            "fdps_certifications": 20,
+            "students_mentored": 500
+        },
+        "academic_identity": {
+            "employee_id": "2307030947",
+            "orcid_id": "0009-0002-0744-6315",
+            "scopus_id": "57217184378",
+            "researcher_id": "QLV-3474-2026",
+            "google_scholar_id": "JW8H408AAAAJ",
+            "vidwan_id": "521179"
+        }
+    },
+    "experience": [
+        {
+            "id": "exp_1",
+            "role": "Assistant Professor",
+            "organization": "MVGR College of Engineering (Autonomous)",
+            "location": "Vizianagaram, Andhra Pradesh",
+            "period": "03 July 2023 – Present",
+            "current": true,
+            "bullets": [
+                "Delivering advanced coursework in Data Engineering, Computer Networks, and Machine Learning.",
+                "Guiding undergraduate & postgraduate thesis research projects in Deep Learning & Medical Image Processing.",
+                "Serving as coordinator and participant in AICTE ATAL FDPs, workshops, and institutional committees."
+            ]
+        },
+        {
+            "id": "exp_2",
+            "role": "Assistant Professor",
+            "organization": "Raghu Institute of Technology (Autonomous)",
+            "location": "Visakhapatnam, Andhra Pradesh",
+            "period": "2 July 2018 – 30 June 2023",
+            "current": false,
+            "bullets": [
+                "Taught core CSE/IT subjects including Object-Oriented Programming, Operating Systems, and Network Security.",
+                "Organized departmental technical quizzes, webinars, and faculty development workshops.",
+                "Published research on Map-Reduce document clustering, Ethereum user management, and wireless sensor routing."
+            ]
+        }
+    ],
+    "skills": {
+        "subjects_taught": [
+            "Web Technologies",
+            "Data Structures",
+            "Object Oriented Programming (Java/C++)",
+            "Operating Systems",
+            "Machine Learning",
+            "Deep Learning",
+            "Computer Networks"
+        ],
+        "research_domains": [
+            "Map-Reduce & Big Data Clustering",
+            "Medical Image Segmentation (Retinal / Skin)",
+            "Blockchain & Distributed User Management",
+            "Wireless Sensor Network Routing",
+            "Data Security & Auditing Models"
+        ],
+        "tools_technologies": [
+            "Python",
+            "Java",
+            "C/C++",
+            "TensorFlow",
+            "OpenCV",
+            "Power BI"
+        ],
+        "web_languages": [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "React JS",
+            "Node JS",
+            "SQL / BigData"
+        ]
+    },
+    "research": [
+        {
+            "id": "pub_1",
+            "title": "Enhanced Document Clustering Using Residue Modulo Partitioner in Map-Reduce Framework",
+            "date": "18 August 2026",
+            "year": 2026,
+            "venue": "Springer Nature",
+            "publisher": "springer",
+            "authors": "Vella Manikanta et al.",
+            "doi": "10.1007/978-3-032-35516-4_6",
+            "link": "https://doi.org/10.1007/978-3-032-35516-4_6",
+            "abstract": "Information Retrieval (IR) is a domain within computer science focused on the efficient retrieval of text documents based on user queries containing specific keywords. The demand for automated IR systems has grown significantly to meet business requirements based on user inquiries. Recent techniques have proposed various IR frameworks utilizing different data mining algorithms, as well as novel map and reduce approaches, while leveraging default partitioners. However, none of these methods have effectively utilized custom partitioners. The primary goal of this paper is to implement a custom partitioner, Residue Modulo-K, where K denotes the number of reducers used in the process. Map Reduce framework utilizing proposed custom partitioner to the default partitioner is executed and the results were tabulated. Based on the experimental analysis the proposed custom partitioner outperformed the default one. The performance metrics utilized for this study are job execution time, data transfer time, CPU utilization, and F-score."
+        },
+        {
+            "id": "pub_2",
+            "title": "Efficient skin disease detection with CNNs",
+            "date": "09 July 2025",
+            "year": 2025,
+            "venue": "AIP Conference Proceedings",
+            "publisher": "aip",
+            "authors": "Vella Manikanta et al.",
+            "doi": "10.1063/5.0284693",
+            "link": "https://doi.org/10.1063/5.0284693",
+            "abstract": "No other diseases are as prevalent today as skin issues, which pose grave danger to our health. Notably, skin cancer, particularly melanoma, is of utmost concern. Timely identification and prevention is essential in mitigating the risks associated with these ailments. However, the prevailing methods of diagnosing skin disorders usually take time and are elaborate. Recent advances in AI and computing have enabled faster and more accurate diagnosis of skin problems. This paper presents a new approach which uses the Inception-V3 model from Convolutional Neural Networks (CNNs) to classify skin diseases. Our model trained on a large dataset of 4925 images promises to be both accurate. The results were encouraging as they achieved an impressive skin diseases detection accuracy of 89.27%. This technology aims at simplifying the diagnostic process for medical specialists such as doctors or dermatologists. By speeding up detection time and increasing precision this method can improve the outcome for patients leading to general public health advancements at large."
+        },
+        {
+            "id": "pub_3",
+            "title": "DR-HIPI: Performance Evaluation of Retinal Images for DR Lesion Segmentation Using the HIPI Architecture",
+            "date": "14 May 2024",
+            "year": 2024,
+            "venue": "Springer International",
+            "publisher": "springer",
+            "authors": "Vella Manikanta et al.",
+            "doi": "10.1007/978-3-031-51163-9_14",
+            "link": "https://doi.org/10.1007/978-3-031-51163-9_14",
+            "abstract": "This chapter proposes a framework that examines possible categories of image modalities available for diabetic retinopathy (DR) and recommends the type of image modality that is better to perform DR segmentation and appropriate post-segmentation machine vision analysis for better DR diagnosis. The proposed system consists of pre-processing step, which uses an order statistics filter to eliminate the noise from the acquired retinal images. The pre-processed images will be sent to the Hadoop Image Processing Interface (HIPI) architecture, implemented using the map-reduce framework. Necessary map and reduce algorithms were implemented to measure the mean pixel intensity values for each type of image modality. For comparison, the proposed system analysis employs 50 color fundus photographs (CFP), 30 fluorescein angiography (FA), and 50 optical coherence tomography (OCT). The average pixel intensity values for CFP are close to 0.31, 0.21, and 0.19 for the RGB channel. The FA values obtained were relative to 0.19, 0.08, and 0.04 for the RGB channel. Similarly, the values for OCT were 0.04, 0.04, and 0.04 for the RGB channel. In comparison to FA and OCT, our proposed work has shown that CFP produces better results. With the proposed map and reduce algorithms, any other type of fundus image could be implemented in the future. The methodology we have implemented using the HIPI architecture is not found in previous research findings in DR, which is the primary motivation for carrying out our work."
+        },
+        {
+            "id": "pub_4",
+            "title": "A Hybrid Cluster based Routing model for wireless sensor Networks",
+            "date": "Year 2020",
+            "year": 2020,
+            "venue": "IJETT (International Journal of Engineering Trends and Technology)",
+            "publisher": "journals",
+            "authors": "Vella Manikanta et al.",
+            "doi": "10.14445/22315381/IJETT-V68I1P214",
+            "link": "https://doi.org/10.14445/22315381/IJETT-V68I1P214",
+            "abstract": "We propose an empirical and custom model with clustering with optimal cost for wireless route implementation. Even though various models proposed by various authors from years of research, every model has its own advantages and disadvantages. We propose a proficient routing method with ideal parameters like sign quality, channel limit, line delay and in-out. In this model we wipe out the superfluous nodes or transitional nodes while transfer of data among source and destination. Cluster usage association the comparable kind of items dependent on the scopes and longitudes of the nodes. Our proposed model gives more efficient results than traditional models."
+        },
+        {
+            "id": "pub_5",
+            "title": "An Efficient Technique for Managing User Information using Ethereum Network",
+            "date": "10 December 2019",
+            "year": 2019,
+            "venue": "IJITEE (International Journal of Innovative Technology and Exploring Engineering)",
+            "publisher": "journals",
+            "authors": "Vella Manikanta et al.",
+            "doi": "10.35940/ijitee.b7585.129219",
+            "link": "https://doi.org/10.35940/ijitee.b7585.129219",
+            "abstract": "Due to enormous increase in development of technology maintenance of user’s information has become major concern. However, user’s information has been effectively maintained by the third parties but the problems with the current system are cost has been increased for maintaining information, lack of transparency and fairness, overuse of power and nature of opaqueness in the current system. So distributed system/ledger i.e., Blockchain came into existence to solve the problems encountered with the current system. The advantages of the proposed distributed system are cost is negligible by eliminating the need of third parties, effectively enhancing the execution speed of transactions and facilitating its reconciliation, maintaining transparency thereby ensuring integrity of user’s information. In this paper, we introduce Ethereum based blockchain network for maintaining user’s information through smart contracts. Experimental results shows that how effectively user’s information has been maintained through blockchain based networks. "
+        },
+        {
+            "id": "pub_6",
+            "title": "A Secure and Hybrid Model for Auditing and Deduplication",
+            "date": "Year 2017",
+            "year": 2017,
+            "venue": "IJETT (International Journal of Engineering Trends and Technology)",
+            "publisher": "journals",
+            "authors": "Vella Manikanta et al.",
+            "doi": "10.14445/22315381/IJETT-V51P210",
+            "link": "https://doi.org/10.14445/22315381/IJETT-V51P210",
+            "abstract": "We propose an empirical model of secure authorization de-duplication. Millions of data components uploaded to server every day, duplicate copy of data components reduce the space of cloud drive. Cloud acts as resource area for data owners and End users. In this model we reduce the duplication of the data components without violating privacy and privileges or access permissions of the while sharing between multiple data owner. Our auditing protocol improves the confidentiality of the auditing with efficient authentication technique and encoding model. Our proposed model improves the performance and maintains data confidentiality than the traditional approaches."
+        }
+    ],
+    "education": [
+        {
+            "id": "edu_1",
+            "degree": "M.Tech in Computer Science & Engineering (CSE)",
+            "institution": "Avanthi Institute of Engineering & Technology",
+            "affiliation": "Vizianagaram · Affiliated to JNTUK",
+            "year": "2017",
+            "icon": "fa-user-graduate"
+        },
+        {
+            "id": "edu_2",
+            "degree": "B.Tech in Information Technology (IT)",
+            "institution": "LENDI Institute of Engineering & Technology",
+            "affiliation": "Vizianagaram · Affiliated to JNTUK",
+            "year": "2014",
+            "icon": "fa-graduation-cap"
+        },
+        {
+            "id": "edu_3",
+            "degree": "Intermediate (M.P.C)",
+            "institution": "Vivekavardini Junior College",
+            "affiliation": "Board of Intermediate Education",
+            "year": "2009",
+            "icon": "fa-school"
+        },
+        {
+            "id": "edu_4",
+            "degree": "S.S.C (10th Standard)",
+            "institution": "Sacred Heart School",
+            "affiliation": "Board of Secondary Education",
+            "year": "2007",
+            "icon": "fa-book-open"
+        }
+    ],
+    "certifications": [
+        {
+            "id": "cert_1",
+            "key": "sdg_ai_2026",
+            "title": "AI for Sustainable Development Goals (SDGs)",
+            "type": "1-Day Faculty Development Programme (FDP)",
+            "date": "22nd June 2026",
+            "academicYear": "2025–2026",
+            "institution": "Pragati Engineering College (Autonomous), Surampalem",
+            "department": "Department of Computer Science and Engineering",
+            "signatories": "Dr. Alugolu Avinash (FDP Coordinator), Dr. D.V. Manjula (HoD - CSE), Dr. G. Naresh (Principal), Sangeetha Subramaniam (MD of Pencilibiz)",
+            "file": "assets/certificates/sdg_ai_pragati_2026.pdf",
+            "fileType": "pdf"
+        },
+        {
+            "id": "cert_2",
+            "key": "power_bi_2026",
+            "title": "Hands-On Workshop on Data Visualization & Business Intelligence using Power BI",
+            "type": "Hands-On Workshop",
+            "date": "18th June 2026",
+            "academicYear": "2025–2026",
+            "institution": "MVGR College of Engineering (Autonomous), Vizianagaram",
+            "department": "Department of IE&CT",
+            "signatories": "Dr. Anjanadevi B (HOD - IE&CT), Dr. Y M C Sekhar (Principal)",
+            "file": "assets/certificates/power_bi_mvgr_2026.png",
+            "fileType": "image"
+        },
+        {
+            "id": "cert_3",
+            "key": "ai_manufacturing_2025",
+            "title": "Five-Day Online Faculty Development Program on The Role of Artificial Intelligence in Manufacturing Industries",
+            "type": "5-Day Online FDP",
+            "date": "27th to 31st October 2025",
+            "academicYear": "2025–2026",
+            "institution": "MVGR College of Engineering (Autonomous), Vizianagaram",
+            "department": "Department of Mechanical Engineering & Data Engineering",
+            "signatories": "Dr. Ravi Kumar Kottala & Dr. B. Srinivas (Coordinators), Dr. Y. M. C. Sekhar (Principal), Prof. P. S. Sitharama Raju (Director)",
+            "file": "assets/certificates/ai_manufacturing_mvgr_2025.pdf",
+            "fileType": "pdf"
+        },
+        {
+            "id": "cert_4",
+            "key": "nvidia_dl_2025",
+            "title": "Certificate of Competency: Fundamentals of Deep Learning",
+            "type": "NVIDIA International Certification",
+            "date": "September 24, 2025",
+            "academicYear": "2025–2026",
+            "institution": "NVIDIA Deep Learning Institute",
+            "certId": "qWrMF8czRSORNwqmNaGP6Q",
+            "signatories": "Greg Estes (Vice President, NVIDIA)",
+            "file": "assets/certificates/nvidia_deep_learning_2025.pdf",
+            "fileType": "pdf"
+        },
+        {
+            "id": "cert_5",
+            "key": "quantum_ai_2025",
+            "title": "AICTE ATAL Faculty Development Program on Quantum Computing with Artificial Intelligence: Convergence and Applications",
+            "type": "6-Day AICTE ATAL FDP",
+            "date": "25/08/2025 to 30/08/2025",
+            "academicYear": "2025–2026",
+            "institution": "Gayatri Vidya Parishad College for Degree and PG Courses",
+            "organization": "AICTE Training and Learning (ATAL) Academy, New Delhi",
+            "certId": "ATAL/2025/1755516688",
+            "signatories": "G R S Murthy (Coordinator), Dr. Sunil Luthra (Director & Bureau Head, AICTE)",
+            "file": "assets/certificates/quantum_ai_atal_2025.pdf",
+            "fileType": "pdf"
+        },
+        {
+            "id": "cert_6",
+            "key": "nextgen_ai_2025",
+            "title": "Next-Gen AI: Innovations in Machine Learning, Deep Learning, and Generative Models",
+            "type": "6-Day AICTE ATAL FDP",
+            "date": "13–18 January 2025",
+            "academicYear": "2024–2025",
+            "institution": "St. Joseph's College of Engineering & Technology, Palai",
+            "organization": "AICTE Training and Learning (ATAL) Academy, New Delhi",
+            "certId": "ATAL/2024/1734412849",
+            "signatories": "Renjith Thomas (Coordinator), Dr. Sunil Luthra (Director & Bureau Head, AICTE)",
+            "file": "assets/certificates/nextgen_ai_st_josephs_2025.pdf",
+            "fileType": "pdf"
+        },
+        {
+            "id": "cert_7",
+            "key": "nptel_oop_2025",
+            "title": "Fundamentals of Object Oriented Programming",
+            "type": "NPTEL-AICTE Faculty Development Programme (12-Week)",
+            "date": "January – April 2025 (12 Weeks)",
+            "academicYear": "2024–2025",
+            "institution": "IIT Roorkee / NPTEL (MoE, Govt. of India)",
+            "certId": "Roll No: NPTEL25CS34S560400069 | Score: 65%",
+            "signatories": "Prof. Andrew Thangaraj (NPTEL Coordinator, IIT Madras)",
+            "file": "assets/certificates/nptel_oop_2025.pdf",
+            "fileType": "pdf"
+        },
+        {
+            "id": "cert_8",
+            "key": "sih_2024",
+            "title": "Smart India Hackathon (SIH) 2024 - Software Edition",
+            "type": "National Mentorship Certificate",
+            "date": "11–12 December 2024",
+            "academicYear": "2024–2025",
+            "institution": "Ministry of Education Innovation Cell / AICTE",
+            "department": "Nodal Center: New Horizon College of Engineering, Bengaluru",
+            "signatories": "Sh. Sanjay Kumar (Secretary, MoE), Prof. T. G. Sitharam (Chairman, AICTE), Dr. Abhay Jere (Vice Chairman AICTE & CIO), Dr. Manjunatha (Principal, New Horizon)",
+            "file": "assets/certificates/sih_2024_mentor.pdf",
+            "fileType": "pdf"
+        },
+        {
+            "id": "cert_9",
+            "key": "cyber_sec_2024",
+            "title": "Emerging Techniques in Cyber Security for Building Resilient Network Infrastructure",
+            "type": "6-Day AICTE ATAL FDP",
+            "date": "09–14 December 2024",
+            "academicYear": "2024–2025",
+            "institution": "Indian Institute of Information Technology, Sri City (IIIT Sri City)",
+            "organization": "AICTE Training and Learning (ATAL) Academy, New Delhi",
+            "certId": "ATAL/2024/1733389918",
+            "signatories": "Odelu Vanga (Coordinator, IIIT Sri City), Dr. Sunil Luthra (Director & Bureau Head, AICTE)",
+            "file": "assets/certificates/cyber_security_iiit_sricity_2024.pdf",
+            "fileType": "pdf"
+        },
+        {
+            "id": "cert_10",
+            "key": "sttp_cps_2024",
+            "title": "Intelligent Cyber Physical Systems: Blockchain Recent Trends & Applications",
+            "type": "SERB Sponsored 1-Week STTP",
+            "date": "08–13 July 2024",
+            "academicYear": "2024–2025",
+            "institution": "MVGR College of Engineering (Autonomous), Department of Data Engineering",
+            "certId": "Secured 'A' Grade in Assessment",
+            "signatories": "Dr. P. Satheesh (HoD Data Engg), Dr. P. Srinivasa Rao (Convener, STTP)",
+            "file": "assets/certificates/sttp_blockchain_mvgr_2024.png",
+            "fileType": "image"
+        },
+        {
+            "id": "cert_11",
+            "key": "macroeconomics_2024",
+            "title": "ES105x: Macroeconomics: Theory and Policy",
+            "type": "edX Verified Certificate",
+            "date": "22nd April 2024",
+            "academicYear": "2023–2024",
+            "institution": "IIMBx, Indian Institute of Management Bangalore (edX)",
+            "certId": "271d709cd4054b3cab39332e7afa8a68",
+            "signatories": "Rupa Chanda (Professor, Indian Institute of Management Bangalore)",
+            "file": "assets/certificates/macroeconomics_iimbx_2024.pdf",
+            "fileType": "pdf"
+        },
+        {
+            "id": "cert_12",
+            "key": "nba_fdp_2020",
+            "title": "Faculty Program on NBA Accreditation",
+            "type": "Online Faculty Development Program",
+            "date": "5th October 2020",
+            "academicYear": "2020–2021",
+            "institution": "Bharati Vidyapeeth College Of Engineering, Navi Mumbai",
+            "certId": "T3IWHA-CE001417 | Score: 89%",
+            "signatories": "Prof. H. B. Sale (Coordinator), Dr. S. D. Jadhav (Principal)",
+            "file": "assets/certificates/nba_fdp_bvcoe_2020.jpg",
+            "fileType": "image"
+        },
+        {
+            "id": "cert_13",
+            "key": "java_quiz_2020",
+            "title": "Online Quiz Contest on JAVA Programming",
+            "type": "National Technical Quiz",
+            "date": "3rd June 2020",
+            "academicYear": "2020–2021",
+            "institution": "RGM College of Engineering and Technology (RGMCET), Nandyal",
+            "department": "Department of CSE under CSI and IE(I) Student's Chapter",
+            "certId": "Score: 100% Perfect Score",
+            "signatories": "Dr. K. Subba Reddy (Convener & HOD), Dr. T. Jayachandra Prasad (Principal)",
+            "file": "assets/certificates/java_quiz_rgmcet_2020.pdf",
+            "fileType": "pdf"
+        },
+        {
+            "id": "cert_14",
+            "key": "naac_quiz_2020",
+            "title": "National Level Quiz on NAAC Assessment & Accreditation",
+            "type": "National Technical Quiz",
+            "date": "26th May 2020",
+            "academicYear": "2019–2020",
+            "institution": "P.V.P.P. College of Engineering, Mumbai",
+            "certId": "OQBUQC-CE003361",
+            "signatories": "Prof. Srikant Bagewadi & Prof. Manjiri Pathak (Coordinators), Dr. Mahavir A. Devmane (Convener), Dr. Alam N. Shaikh (Principal)",
+            "file": "assets/certificates/naac_quiz_pvpp_2020.jpg",
+            "fileType": "image"
+        },
+        {
+            "id": "cert_15",
+            "key": "future_tech_2020",
+            "title": "Future Tech 2020 - Global Mega Trends, Technologies & Covid 19 Impacting Sectors",
+            "type": "National Digital Knowledge Series",
+            "date": "19th May 2020",
+            "academicYear": "2019–2020",
+            "institution": "ICT Academy (Skycampus)",
+            "certId": "C.No: S219920",
+            "signatories": "Mani James (Senior VP, Frost & Sullivan), G Saravanan (DGM, ICT Academy), M Sivakumar (CEO, ICT Academy)",
+            "file": "assets/certificates/future_tech_ict_2020.jpg",
+            "fileType": "image"
+        },
+        {
+            "id": "cert_16",
+            "key": "industry4_2020",
+            "title": "Webinar on INDUSTRY 4.0",
+            "type": "Technical Webinar",
+            "date": "19th May 2020",
+            "academicYear": "2019–2020",
+            "institution": "Sri Eshwar College of Engineering, Coimbatore",
+            "certId": "21BF5O-CE000533",
+            "signatories": "Director - IR, Director, Principal (Sri Eshwar College of Engineering)",
+            "file": "assets/certificates/industry4_eshwar_2020.pdf",
+            "fileType": "pdf"
+        },
+        {
+            "id": "cert_17",
+            "key": "ensemble_ml_2020",
+            "title": "Webinar on Ensemble Learning in Machine Learning",
+            "type": "Technical Webinar",
+            "date": "12th May 2020",
+            "academicYear": "2019–2020",
+            "institution": "CMR Engineering College, Hyderabad in association with WILEY",
+            "department": "Department of Computer Science and Engineering",
+            "signatories": "Dr. M. Kumara Swamy (Professor in CSE), Dr. Sheo Kumar (HOD - CSE), Dr. A. Srinivalusa Reddy (Principal)",
+            "file": "assets/certificates/ensemble_ml_cmr_2020.jpg",
+            "fileType": "image"
+        },
+        {
+            "id": "cert_18",
+            "key": "covid_ml_2020",
+            "title": "2 Days Instructor Led Live Online Workshop On ML & AI Using Covid-19 Virus Data Analysis",
+            "type": "2-Day National Workshop",
+            "date": "09th – 10th May 2020",
+            "academicYear": "2019–2020",
+            "institution": "Finland Labs & National Social Summit, IIT Roorkee",
+            "signatories": "Director, Revert Technology Pvt. Ltd. & IIT Roorkee Social Summit Team",
+            "file": "assets/certificates/covid_ml_finlandlabs_2020.jpg",
+            "fileType": "image"
+        },
+        {
+            "id": "cert_19",
+            "key": "python_spoken_2020",
+            "title": "Python 3.4.3 Training & Remote Examination",
+            "type": "IIT Bombay National Certification",
+            "date": "5th May 2020",
+            "academicYear": "2019–2020",
+            "institution": "Spoken Tutorial Project, IIT Bombay (NMEICT, MHRD, Govt. of India)",
+            "certId": "2438777NWS",
+            "signatories": "Prof. Kannan M Moudgalya (IIT Bombay), Vaishali Barkade & Anub Vamadevan Nair (Invigilators, JSPM RSCOE)",
+            "file": "assets/certificates/python_spoken_iitb_2020.jpg",
+            "fileType": "image"
+        },
+        {
+            "id": "cert_20",
+            "key": "python_fdp_2020",
+            "title": "Online Faculty Development Program on Python Programming",
+            "type": "6-Day National FDP",
+            "date": "28th April – 03rd May 2020",
+            "academicYear": "2019–2020",
+            "institution": "JSPM's Rajarshi Shahu College of Engineering, Pune (Affiliated to SPPU)",
+            "signatories": "Prof. V. M. Bardade (FDP Coordinator), Dr. Seema V. Kedar (HOD), Dr. R. K. Jain (Director, JSPM RSCOE)",
+            "file": "assets/certificates/python_fdp_jspm_2020.jpg",
+            "fileType": "image"
+        }
+    ],
+    "roles": [
+        {
+            "id": "role_1",
+            "title": "Mentor, Smart India Hackathon (SIH 2024)",
+            "category": "National Mentorship",
+            "organization": "Ministry of Education Innovation Cell / AICTE",
+            "period": "2024",
+            "description": "Guided student innovator teams in developing software prototypes for national challenges in SIH 2024."
+        },
+        {
+            "id": "role_2",
+            "title": "Member, Departmental Academic Committee",
+            "category": "Academic Governance",
+            "organization": "Department of Data Engineering, MVGR College of Engineering",
+            "period": "2020 – Present",
+            "description": "Participates in curriculum revision, outcome-based education (OBE) mapping, and laboratory infrastructure enhancement."
+        },
+        {
+            "id": "role_1787372027715",
+            "title": "Mentor, Smart India Hackathon (SIH 2025)",
+            "category": "National Mentorship",
+            "organization": "Ministry of Education Innovation Cell / AICTE",
+            "period": "2025",
+            "description": "Guided student innovator teams in developing software prototypes for national challenges in SIH 2025."
+        }
+    ],
+    "contact": {
+        "email": "manikantavella48@gmail.com",
+        "phone": "+91 8978970366",
+        "location": "Vizianagaram, AP, India",
+        "address": "Department of Data Engineering, MVGR College of Engineering (A), Vizianagaram - 535005, AP, India",
+        "google_scholar": "https://scholar.google.com/citations?user=JW8H408AAAAJ",
+        "researchgate": "https://www.webofscience.com/wos/author/record/QLV-3474-2026",
+        "linkedin": "https://www.linkedin.com/",
+        "github": "https://github.com/"
+    },
+    "messages": [],
+    "memberships": [
+        {
+            "id": "mem_csi",
+            "title": "Computer Society of India (CSI)",
+            "type": "National Professional Body",
+            "category": "National",
+            "membership_id": "Member ID: 5081260041",
+            "organization": "Computer Society of India (CSI)",
+            "period": "Individual Member / 20/Aug/202",
+            "description": "Professional body member participating in IT research activities, workshops, and computer science education advancement."
+        },
+        {
+            "id": "mem_iaeng",
+            "title": "International Association of Engineers (IAENG)",
+            "type": "International Engineering Society",
+            "membership_id": "Member ID: IAENG-318492",
+            "category": "International",
+            "organization": "International Association of Engineers (IAENG)",
+            "period": "Life Member",
+            "description": "International member contributing to engineering research, conferences, and interdisciplinary technology publications."
+        },
+        {
+            "id": "mem_ired",
+            "title": "Institute of Research Engineers and Doctors (IRED)",
+            "type": "International Research Network",
+            "membership_id": "Senior Member ID: IRED-8924",
+            "category": "International",
+            "organization": "Institute of Research Engineers and Doctors (IRED)",
+            "period": "Senior Member",
+            "description": "Senior member participating in international engineering research networks, peer reviews, and technical conferences."
+        },
+        {
+            "id": "mem_iste",
+            "title": "Indian Society for Technical Education (ISTE)",
+            "type": "National Technical Body",
+            "membership_id": "Life Member ID: LM-ISTE-9842",
+            "category": "National",
+            "organization": "Indian Society for Technical Education (ISTE)",
+            "period": "Life Member",
+            "description": "Life member dedicated to technical education quality improvement, faculty training, and academic excellence."
+        },
+        {
+            "id": "mem_abcd",
+            "title": "ABCD Index Chapters",
+            "type": "Academic Indexing Portal",
+            "membership_id": "Member ID: ABCD-5211",
+            "category": "International",
+            "organization": "ABCD Index Portal",
+            "period": "Member",
+            "description": "Registered chapter member involved in scholarly journal indexing and peer review verification."
+        }
+    ]
+}

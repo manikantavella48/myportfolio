@@ -1,0 +1,17 @@
+# Admin Subfolder Rewrite Engine Configuration
+Options -Indexes
+RewriteEngine On
+
+# 1. Remove index.php from /admin/
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /admin/index\.php\ HTTP/
+RewriteRule ^index\.php$ ./ [R=301,L]
+
+# 2. Redirect /admin/login.php to /admin/login
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /admin/login\.php\ HTTP/
+RewriteRule ^login\.php$ login [R=301,L]
+
+# 3. Hide .php extensions for admin files
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^/]+)/?$ $1.php [L]

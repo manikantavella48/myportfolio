@@ -1,0 +1,20 @@
+# Dependencies & Temp Files
+scratch/node_modules/
+scratch/package-lock.json
+node_modules/
+
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+*.tmp
+*.log
+
+# Sensitive environment / credentials (if customized)
+# data/admin_creds.json
+
+# IDE / Editor configuration
+.vscode/
+.idea/
