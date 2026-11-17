@@ -198,6 +198,42 @@
     ],
     "certifications": [
         {
+            "id": "cert_1794921545680",
+            "key": "cert_1794921478079",
+            "title": "Quantum ML & Deep Learning Using IBM Qiskit",
+            "type": "Faculty Development Program",
+            "date": "18th – 22nd August 2026 (5 Days)",
+            "academicYear": "2026–2027",
+            "institution": "MVGR College of Engineering (Autonomous)",
+            "signatories": "Dr. Anjanadevi B – HoD, IE&CT    Dr. B. Aruna Kumari – HoD, CSE    Dr. V. Jyothi – HoD, Data Engineering    Dr. Y. M. C. Sekhar – Principal",
+            "file": "assets/certificates/QUANTUM_ML___DEEP_LEARNING_USING_IBM_QISKIT.pdf",
+            "fileType": "pdf"
+        },
+        {
+            "id": "cert_1794921377121",
+            "key": "cert_1794921318444",
+            "title": "Data Structures and Algorithms Design",
+            "type": "Faculty Development Program",
+            "date": "July – October 2026 (12 Weeks)",
+            "academicYear": "2026–2027",
+            "institution": "Indian Institute of Technology Kanpur (IIT Kanpur) / NPTEL (MoE, Govt. of India)",
+            "signatories": "Prof. B. V. Ratish Kumar – Chairman, Centre for Continuing Education, IIT Kanpur    Prof. Satyaki Roy – NPTEL Coordinator, IIT Kanpur",
+            "file": "assets/certificates/FDP_DS.pdf",
+            "fileType": "pdf"
+        },
+        {
+            "id": "cert_1794921255382",
+            "key": "cert_1794921175539",
+            "title": "Data Structures and Algorithms Design",
+            "type": "NPTEL Online Certification – SWAYAM (12-Week Course)",
+            "date": "July – October 2026 (12 Weeks)",
+            "academicYear": "2026–2027",
+            "institution": "Indian Institute of Technology Kanpur (IIT Kanpur) / NPTEL (MoE, Govt. of India)",
+            "signatories": "Prof. B. V. Ratish Kumar – Chairman, Centre for Continuing Education, IIT Kanpur    Prof. Satyaki Roy – NPTEL Coordinator, IIT Kanpur",
+            "file": "assets/certificates/DS.pdf",
+            "fileType": "pdf"
+        },
+        {
             "id": "cert_1",
             "key": "sdg_ai_2026",
             "title": "AI for Sustainable Development Goals (SDGs)",
